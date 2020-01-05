@@ -1,6 +1,6 @@
 {
   "name": "defaeco-management-system",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,12 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.4"
   },
-  "files": ["lib/**/*"]
+  "dependencies": {
+    "@types/ngeohash": "^0.6.2",
+    "firebase": "^7.6.1",
+    "ngeohash": "^0.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
